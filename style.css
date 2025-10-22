@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Press+Start+2P&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Press+Start+2P&family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+ 
+ :root {
+    --color-background: #f3f3f3;
+    --color-text: #000000;
+    --color-primary: #c7c3cd;
+    --color-secondary: #eaf6f5;
+    --font-family-sans-seriff: 'Space Grotesk', sans-serif;
+    --font-family-system-ui: "Press Start 2p", system-ui;
+ }
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: var(--font-family-system-ui);
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+.container {
+    max-width: 800px;
+    max-height: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--color-secondary);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container h2{
+    font-family: var(--font-family-sans-seriff)
+}
